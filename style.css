@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #91c1f7, #b998e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px white, -10px -10px 10px white;
+  width: 100%;
+  max-width: 600px;
+}
+
+.registration-form h1 {font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {font-size: 20px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.gender {
+  margin-top: 15px;
+  display: flex;
+  gap: 40px;
+}
+
+.gender label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #6c63ff, #9a66ff);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: linear-gradient(to left, #6c63ff, #9a66ff);
+}
